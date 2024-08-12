@@ -218,6 +218,53 @@ span{
     letter-spacing: 0.3px;
     text-align: center;
 }
+.running-section{
+    max-width: 1040px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 350px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 40px 35px 30px;
+}
+.run-title{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 120%;
+    text-align: left;
+}
+.run-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size:0.7rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    text-align: left; 
+}
+.run-image{
+    width: 100%;
+    border-radius: 18px;
+    background: url(4);
+}
+.primary-btn1{
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    width: 200px;
+    height: 50px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+}
+.run-content{
+    /* padding: 40px 35px 30px; */
+}
 
 
 
@@ -258,5 +305,9 @@ span{
     .Exercise-images-section{
         flex-direction: column;
         gap: 0px;
+    }
+    .running-section{
+        flex-direction: column;
+        gap: 50px;
     }
 }
