@@ -289,6 +289,76 @@ span{
     align-items: center;
     margin-top: 50px;
 }
+.bmi-chart-section{
+    max-width: 1040px;
+    /* height: 400px; */
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    background: rgb(34, 34, 34);
+    display: flex;
+    gap: 200px;
+    padding: 20px 60px;
+}
+table{
+    border-collapse:collapse;
+    width: 300px;
+    height: 200px;
+}
+.bmi-title1{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 120%;
+    text-align: left;
+    margin-top: 20px;
+}
+td, th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding-left: 10px;
+}
+.tr{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: left;
+}
+.th{
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: left;
+}
+.thead{
+    height: 35px;
+}
+.grid-box{
+    background:  rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    height: 40px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+#box-5{
+    grid-column: span 2;
+}
+#down{
+    padding-left: 380px;
+  }
+  #down1{
+      padding-left: 200px;
+  }
    
 
 
@@ -335,7 +405,17 @@ span{
         flex-direction: column;
         gap: 50px;
     }
-    .bmi-section{
+    .bmi-section, .grid{
         flex-direction: column;
+    }
+    .bmi-chart-section{
+        flex-direction: column;
+        gap: 0px;
+    }
+    #down{
+        padding-left: 125px;
+    }
+    #down1{
+        padding-left: 10px;
     }
 }
