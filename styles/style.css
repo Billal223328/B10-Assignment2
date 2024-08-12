@@ -265,6 +265,31 @@ span{
 .run-content{
     /* padding: 40px 35px 30px; */
 }
+.bmi-title{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 120%;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.bmi-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+.bmi-section{
+    /* border:2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+   
 
 
 
@@ -309,5 +334,8 @@ span{
     .running-section{
         flex-direction: column;
         gap: 50px;
+    }
+    .bmi-section{
+        flex-direction: column;
     }
 }
