@@ -359,6 +359,69 @@ td, th{
   #down1{
       padding-left: 200px;
   }
+  .logo1{
+    color: rgb(230, 83, 60);
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 50%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .logo-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    text-align: left;
+  }
+  .footer-title{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 120%;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.footer-link{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+.footer-section{
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    margin: 0 auto;
+    max-width: 1140px;
+    display: flex;
+    gap: 100px;
+    padding-left: 80px;
+}
+hr{
+    width: 959.5px;
+    height: 0;
+    left: 189px;
+    top: 394px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.text{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+ 
+
    
 
 
@@ -417,5 +480,13 @@ td, th{
     }
     #down1{
         padding-left: 10px;
+    }
+    .footer-content{
+        flex-direction: column;
+        gap: 20px;
+        /* padding-left: 0px; */
+    }
+    hr{
+        width: 400px;
     }
 }
